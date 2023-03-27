@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module" : "commonjs",
+    "forceConsistentCasingInFileNames": false,
+    "target" : "es6",
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths"  : {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./src/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "vueCompilerOptions": {
+    "jsx"    : "preserve",
+    "plugins": []
+  },
+}
